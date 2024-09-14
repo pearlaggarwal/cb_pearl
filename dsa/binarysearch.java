@@ -81,58 +81,58 @@ public class binarysearch {
 
     // count occurance
 
-    static int lowerbound(int[]arr,int num){
-        int fo=-1;
-        int low=0,high=arr.length-1,mid=0;
-        while(low<=high){
-            mid=(low+high)/2;
-            if(arr[mid]==num){
-                fo=mid-1;
-                high=mid-1;
-            }
-            else if(arr[mid]>num){
-                high=mid-1;
+    // static int lowerbound(int[]arr,int num){
+    //     int fo=-1;
+    //     int low=0,high=arr.length-1,mid=0;
+    //     while(low<=high){
+    //         mid=(low+high)/2;
+    //         if(arr[mid]==num){
+    //             fo=mid-1;
+    //             high=mid-1;
+    //         }
+    //         else if(arr[mid]>num){
+    //             high=mid-1;
 
-            }
-            else
-                low=mid+1;
-        }
-        return fo;
-    }
+    //         }
+    //         else
+    //             low=mid+1;
+    //     }
+    //     return fo;
+    // }
 
-    static int upperbound(int[] arr,int num){
-        int ans=-1;
-        int low=0,high=arr.length-1,mid=0;
-        while(low<=high){
-            mid=(low+high)/2;
-            if(arr[mid]==num){
-                ans=mid+1;
-                low=mid+1;
+    // static int upperbound(int[] arr,int num){
+    //     int ans=-1;
+    //     int low=0,high=arr.length-1,mid=0;
+    //     while(low<=high){
+    //         mid=(low+high)/2;
+    //         if(arr[mid]==num){
+    //             ans=mid+1;       
+    //             low=mid+1;
 
-            }
-            else if(arr[mid]>num){
-                high=mid-1;
-            }
-            else
-                low=mid+1;
-        }
-        return ans-1;
-    }
+    //         }
+    //         else if(arr[mid]>num){
+    //             high=mid-1;
+    //         }
+    //         else
+    //             low=mid+1;
+    //     }
+    //     return ans-1;
+    // }
 
-    static int countocc(int[] arr,int num){
-        int lb=lowerbound(arr, num);
-        if(lb==-1) return 0;
-        int ub=upperbound(arr, num);
-        return ub-lb;
-    }
+    // static int countocc(int[] arr,int num){
+    //     int lb=lowerbound(arr, num);
+    //     if(lb==-1) return 0;
+    //     int ub=upperbound(arr, num);
+    //     return ub-lb;
+    // }
 
 
-    public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        int num=sc.nextInt();
-        int[] arr={1,2,3,4,5,5,6,6,6,6,6,7,8,9,9,9,9};
-        System.out.println(countocc(arr,num));
-    }
+    // public static void main(String[] args) {
+    //     Scanner sc=new Scanner(System.in);
+    //     int num=sc.nextInt();
+    //     int[] arr={1,2,3,4,5,5,6,6,6,6,6,7,8,9,9,9,9};
+    //     System.out.println(countocc(arr,num));
+    // }
 
     // Extra 
 //     // static int count(int[]arr,int num){

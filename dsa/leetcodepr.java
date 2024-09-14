@@ -40,12 +40,7 @@ public class leetcodepr {
 
 
             }
-
             }
-            
-    
-        }
-    
     }
     
     public static void main(String[] args) {
