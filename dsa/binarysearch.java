@@ -12,7 +12,7 @@ public class binarysearch {
     //         mid=(low+high)/2;
     //         if(arr[mid]==num)
     //             return mid;
-    //         else if(arr[mid]<num){
+    //         else if(arr[mid]<num){  
     //             low=mid+1;
     //         }
     //         else

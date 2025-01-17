@@ -295,33 +295,37 @@ public class assign2{
 
     // QUES INTESECTION OF ARRAY
 
-    static void intersection(int[] arr1,int[] arr2){
-        for (int i=0;i<arr2.length;i++){
-            for (int j=0;j<arr1.length;j++){
-                if (arr1[j]==arr2[i]){
-                    System.out.print(arr1[j]+" ");
-                    break;
-                }
-            }
-        }
-    }
+    // static void intersection(int[] arr1,int[] arr2){
+    //     for (int i=0;i<arr2.length;i++){
+    //         for (int j=0;j<arr1.length;j++){
+    //             if (arr1[j]==arr2[i]){
+    //                 System.out.print(arr1[j]+" ");
+    //                 break;
+    //             }
+    //         }
+    //     }
+    // }
 
-    public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+    // public static void main(String[] args) {
+    //     Scanner sc=new Scanner(System.in);
         
-        int n=sc.nextInt();
-        int[] arr1= new int[n];
-        for (int j=0;j<n;j++){
-            arr1[j]=sc.nextInt();
-        }
-        int m=sc.nextInt();
-        int[] arr2= new int[m];
-        for (int j=0;j<m;j++){
-            arr2[j]=sc.nextInt();
-        }
-        intersection(arr1,arr2); 
-        sc.close();
-        }
+    //     int n=sc.nextInt();
+    //     int[] arr1= new int[n];
+    //     for (int j=0;j<n;j++){
+    //         arr1[j]=sc.nextInt();
+    //     }
+    //     int m=sc.nextInt();
+    //     int[] arr2= new int[m];
+    //     for (int j=0;j<m;j++){
+    //         arr2[j]=sc.nextInt();
+    //     }
+    //     intersection(arr1,arr2); 
+    //     sc.close();
+    //}
+
+    
+
+
 
     }
 

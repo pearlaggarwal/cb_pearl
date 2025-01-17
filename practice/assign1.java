@@ -141,9 +141,9 @@ public class assign1{
     //     return count;
     // }
     // public static void main(String[] args) {
-    //     Scanner sc=new Scanner(System.in);
-    //     int n=sc.nextInt();
-    //     System.out.print(bintodec(n));
+        // Scanner sc=new Scanner(System.in);
+        // int n=sc.nextInt();
+        // System.out.print(bintodec(n));
     // }
 
 
@@ -484,10 +484,10 @@ public class assign1{
     // }
 
     // public static void main(String[] args) {
-    //     Scanner sc=new Scanner (System.in);
-    //     long num=sc.nextLong();
-    //     System.out.println(chewbacca(num));
-    //     sc.close();
+        // Scanner sc=new Scanner (System.in);
+        // long num=sc.nextLong();
+        // System.out.println(chewbacca(num));
+        // sc.close();
     // }
 
 
