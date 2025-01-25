@@ -10,36 +10,36 @@ public class assign2{
 
     // QUES 1 Binary search
 
-    // static int binarysearch(int arr[],int m){
-    //     int low=0,high=arr.length-1,mid=0;
-    //     while(low<=high){
-    //         mid=(high+low)/2;
-    //         if(arr[mid]==m){
-    //             return mid;
-    //         }
-    //         else if (m>arr[mid]){
-    //             low=mid+1;
-    //         }
-    //         else{
-    //             high=mid-1;
-    //         }
-    //     }
-    //     return -1;
-    //     }
+    static int binarysearch(int arr[],int m){
+        int low=0,high=arr.length-1,mid=0;
+        while(low<=high){
+            mid=(high+low)/2;
+            if(arr[mid]==m){
+                return mid;
+            }
+            else if (m>arr[mid]){
+                low=mid+1;
+            }
+            else{
+                high=mid-1;
+            }
+        }
+        return -1;
+        }
 
     
 
-    // public static void main(String[] args) {
-    //     Scanner sc=new Scanner(System.in);
-    //     int n=sc.nextInt();
-    //     int[] arr=new int[n];
-    //     for(int i=0;i<n;i++){
-    //         arr[i]=sc.nextInt();
-    //     }
-    //     int m=sc.nextInt();
-    //     System.out.println(binarysearch(arr,m));        
-    //     sc.close();        
-    // }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int[] arr=new int[n];
+        for(int i=0;i<n;i++){
+            arr[i]=sc.nextInt();
+        }
+        int m=sc.nextInt();
+        System.out.println(binarysearch(arr,m));        
+        sc.close();        
+    }
 
 
 

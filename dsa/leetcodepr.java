@@ -34,11 +34,6 @@ public class leetcodepr {
             for(int j=i;j<nums.length;j++){
                 mprofit=nums[j]-nums[i];
                 mprofit=Math.max(mprofit,currentprofit);
-
-
-
-
-
             }
             }
     }
